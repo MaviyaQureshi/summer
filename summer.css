@@ -5,10 +5,10 @@ body {
     font-weight: 700;
     line-height: 2.2;
     font-size: 1rem;
+    background-image: url('s.jpg');
 }
 
 .container{
-    background-image: url('s.jpg');
     margin-top: -12rem;
     /* margin-left: 18rem; */
 }
@@ -37,8 +37,8 @@ nav {
 .menu a {
     color: grey;
     letter-spacing: 0.1rem;
-    /* display: flex; */
-    /* justify-content: space-between; */
+    display: flex;
+    justify-content: space-between;
     padding: 0.5rem 1rem;
     transition: all 0.3s linear;
 }
@@ -50,7 +50,7 @@ nav {
 }
 
 .menu {
-    margin-right: -15rem;
+    margin-right: -10rem;
     font-size: 1.25rem;
     height: 0;
     overflow: hidden;
@@ -87,6 +87,7 @@ nav {
 }
 
 .logo{
+    margin-left: 5rem;
     height : 5rem;
 }
 
